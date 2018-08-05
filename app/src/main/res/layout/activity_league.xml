@@ -59,11 +59,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <ToggleButton
-            android:id="@+id/toggleButton"
+            android:id="@+id/mensLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
+            android:onClick="onMensClicked"
             android:text="Mens"
             android:textColor="@android:color/white"
             android:textOff="Mens"
@@ -72,28 +73,30 @@
             tools:layout_editor_absoluteY="237dp" />
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
+            android:id="@+id/womensLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
+            android:onClick="onWomensClicked"
             android:text="Womens"
             android:textColor="@android:color/white"
             android:textOff="Womens"
             android:textOn="Womens" />
 
         <ToggleButton
-            android:id="@+id/toggleButton3"
+            android:id="@+id/coedLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
             android:fontFamily="@font/montserrat"
-            android:text="Co-eds"
+            android:onClick="onCoedClicked"
+            android:text="CO-ED"
             android:textColor="@android:color/white"
-            android:textOff="Co-eds"
-            android:textOn="Co-eds" />
+            android:textOff="CO-ED"
+            android:textOn="CO-ED" />
     </LinearLayout>
 
     <Button
