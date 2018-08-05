@@ -1,4 +1,4 @@
-package com.ipathsaid.swoosh
+package com.ipathsaid.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
