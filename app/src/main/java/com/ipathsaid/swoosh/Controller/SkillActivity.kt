@@ -17,8 +17,6 @@ class SkillActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_skill)
         player = intent.getParcelableExtra(EXTRA_PLAYER)
-
-
     }
 
     fun onSkillFinishClicked(view: View){
